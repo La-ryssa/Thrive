@@ -51,6 +51,9 @@ public partial class MicrobeStage : CreatureStageBase<Entity, MicrobeWorldSimula
     [JsonProperty]
     private bool wonOnce;
 
+    [JsonProperty]
+    private bool tutorialEndedOnce;
+
     /// <summary>
     ///   Used to give increasing numbers to player offspring to know which is the latest
     /// </summary>
@@ -805,6 +808,13 @@ public partial class MicrobeStage : CreatureStageBase<Entity, MicrobeWorldSimula
         if (!CurrentGame.TutorialState.Enabled)
         {
             tutorialGUI.EventReceiver?.OnTutorialDisabled();
+
+            if (!tutorialEndedOnce)
+            {
+                HUD.ShowCompoundPanel();
+                HUD.ShowEnvironmentPanel();
+                tutorialEndedOnce = true;
+            }
         }
         else
         {
