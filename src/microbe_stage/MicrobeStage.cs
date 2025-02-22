@@ -290,7 +290,7 @@ public partial class MicrobeStage : CreatureStageBase<Entity, MicrobeWorldSimula
                 {
                     TutorialState.SendEvent(TutorialEventType.MicrobeCompoundsNearPlayer,
                         new EntityPositionEventArgs(Clouds.FindCompoundNearPoint(playerPosition.Position,
-                            Compound.Glucose)),
+                            Compound.Glucose), Player.Get<CompoundStorage>().Compounds),
                         this);
                 }
 
@@ -306,7 +306,7 @@ public partial class MicrobeStage : CreatureStageBase<Entity, MicrobeWorldSimula
                         WorldSimulation);
 
                     TutorialState.SendEvent(TutorialEventType.MicrobeChunksNearPlayer,
-                        new EntityPositionEventArgs(position), this);
+                        new EntityPositionEventArgs(position, Player.Get<CompoundStorage>().Compounds), this);
                 }
 
                 guidancePosition = TutorialState.GetPlayerGuidancePosition();
