@@ -402,7 +402,6 @@ public class TutorialState : ITutorialInput
             PatchMap,
             CellEditorIntroduction,
             EditorUndoTutorial,
-            EditorRedoTutorial,
             EditorTutorialEnd,
             AutoEvoPrediction,
             StaySmallTutorial,
