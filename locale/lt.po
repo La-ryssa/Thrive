@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
 "PO-Revision-Date: 2025-01-21 12:01+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Lithuanian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lt/>\n"
@@ -1793,6 +1793,9 @@ msgstr "Aprašymas:"
 msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr ""
 
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 
@@ -2745,6 +2748,13 @@ msgstr ""
 msgid "JUNE"
 msgstr ""
 
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr ""
+
+#, fuzzy
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "Baigti žaidimą"
+
 #, fuzzy
 msgid "KEEP_MIGRATION"
 msgstr "Bendra"
@@ -3532,11 +3542,12 @@ msgstr "Tam, kad atrakinti redaktorių ir dauginimąsi tau reikės surinkti [thr
 msgid "MIDDLE_MOUSE"
 msgstr ""
 
-msgid "MIGRATE"
-msgstr ""
-
 #, fuzzy
 msgid "MIGRATION_FAILED_TO_ADD"
+msgstr "(pradžios vieta)"
+
+#, fuzzy
+msgid "MIGRATION_MANAGER"
 msgstr "(pradžios vieta)"
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
@@ -5739,6 +5750,9 @@ msgid "TOOLS"
 msgstr "Įrankiai"
 
 msgid "TOOL_HAND_AXE"
+msgstr ""
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
 msgstr ""
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"

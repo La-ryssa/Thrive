@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1627,6 +1627,9 @@ msgstr ""
 msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr ""
 
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 
@@ -2508,6 +2511,13 @@ msgstr ""
 msgid "JUNE"
 msgstr ""
 
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr ""
+
+#, fuzzy
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "Beweeg na die wakker stadium. Besikbaar na jy genoeg brain krag het (tiepe selle met \"axons\")."
+
 msgid "KEEP_MIGRATION"
 msgstr ""
 
@@ -3243,11 +3253,12 @@ msgstr ""
 msgid "MIDDLE_MOUSE"
 msgstr ""
 
-msgid "MIGRATE"
-msgstr ""
-
 msgid "MIGRATION_FAILED_TO_ADD"
 msgstr ""
+
+#, fuzzy
+msgid "MIGRATION_MANAGER"
+msgstr "Word wakker ({0:F1}/{1:F1})"
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
 msgstr ""
@@ -5365,6 +5376,9 @@ msgid "TOOLS"
 msgstr ""
 
 msgid "TOOL_HAND_AXE"
+msgstr ""
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
 msgstr ""
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"

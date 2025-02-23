@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
 "PO-Revision-Date: 2025-02-06 13:29+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ko/>\n"
@@ -1851,6 +1851,15 @@ msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr "새로운 키 배치 추가"
 
 #, fuzzy
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+"이 세포 편집기에서 변이 점수(MP)를 소모하여 당신의 종에 세포 기관을 추가하거나 제거할 수 있습니다.\n"
+"\n"
+"세포 편집기의 다른 탭에서 당신의 종의 다른 속성 또한 변경할 수 있습니다.\n"
+"\n"
+"계속하려면, 패널의 왼쪽에 있는 세포 기관 (세포질이 좋겠죠)을 선택하세요. 그리고 화면 중앙에 표시된 세포칸 옆을 마우스 왼쪽 버튼으로 클릭해서 세포 기관을 종에 추가하세요."
+
+#, fuzzy
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 "미생물 편집기에 어서오세요.\n"
@@ -2870,6 +2879,13 @@ msgstr ""
 msgid "JUNE"
 msgstr ""
 
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr ""
+
+#, fuzzy
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "새로운 키 배치 추가"
+
 #, fuzzy
 msgid "KEEP_MIGRATION"
 msgstr "호흡"
@@ -3762,12 +3778,16 @@ msgid "MIDDLE_MOUSE"
 msgstr "마우스 가운데 버튼"
 
 #, fuzzy
-msgid "MIGRATE"
-msgstr "비율"
-
-#, fuzzy
 msgid "MIGRATION_FAILED_TO_ADD"
 msgstr "자동 진화 실행 실패"
+
+#, fuzzy
+msgid "MIGRATION_MANAGER"
+msgstr ""
+"ATP 막대 옆의 생명력 막대를 주시하세요(오른쪽 아래).\n"
+"생명력이 모두 떨어지면 세포는 죽게 됩니다.\n"
+"ATP가 있다면 재생할 것입니다.\n"
+"ATP를 만들기 위하여 충분한 포도당을 수집하세요."
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
 msgstr ""
@@ -6165,6 +6185,9 @@ msgid "TOOLS"
 msgstr "도구"
 
 msgid "TOOL_HAND_AXE"
+msgstr ""
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
 msgstr ""
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"
@@ -8720,6 +8743,10 @@ msgid "ZOOM_OUT"
 msgstr "축소"
 
 #, fuzzy
+#~ msgid "MIGRATE"
+#~ msgstr "비율"
+
+#, fuzzy
 #~ msgid "WIKI_RADIOSYNTHESIS"
 #~ msgstr "열합성"
 
@@ -9159,14 +9186,6 @@ msgstr "축소"
 #~ "\n"
 #~ "파편을 선택하여 진행하세요."
 
-#~ msgid "EDITOR_TUTORIAL_CELL_TEXT"
-#~ msgstr ""
-#~ "이 세포 편집기에서 변이 점수(MP)를 소모하여 당신의 종에 세포 기관을 추가하거나 제거할 수 있습니다.\n"
-#~ "\n"
-#~ "세포 편집기의 다른 탭에서 당신의 종의 다른 속성 또한 변경할 수 있습니다.\n"
-#~ "\n"
-#~ "계속하려면, 패널의 왼쪽에 있는 세포 기관 (세포질이 좋겠죠)을 선택하세요. 그리고 화면 중앙에 표시된 세포칸 옆을 마우스 왼쪽 버튼으로 클릭해서 세포 기관을 종에 추가하세요."
-
 #, fuzzy
 #~ msgid "TOTAL_EXTINCTION"
 #~ msgstr "다음으로 인하여 개체 수가 {0} 에서 {1} 로 변화됨: {2}"
@@ -9361,3 +9380,11 @@ msgstr "축소"
 
 #~ msgid "PLASTID"
 #~ msgstr "색소체"
+
+#~ msgid "EDITOR_TUTORIAL_CELL_TEXT"
+#~ msgstr ""
+#~ "이 세포 편집기에서 변이 점수(MP)를 소모하여 당신의 종에 세포 기관을 추가하거나 제거할 수 있습니다.\n"
+#~ "\n"
+#~ "세포 편집기의 다른 탭에서 당신의 종의 다른 속성 또한 변경할 수 있습니다.\n"
+#~ "\n"
+#~ "계속하려면, 패널의 왼쪽에 있는 세포 기관 (세포질이 좋겠죠)을 선택하세요. 그리고 화면 중앙에 표시된 세포칸 옆을 마우스 왼쪽 버튼으로 클릭해서 세포 기관을 종에 추가하세요."

@@ -3,8 +3,8 @@ using System.Diagnostics;
 
 /// <summary>
 ///   Helper class that contains all the math for environmental tolerances in one place (though the microbe editor and
-///   especially <see cref="TolerancesEditorSubComponent"/> has some extra range checking code, which if changed here
-///   must be changed there as well)
+///   especially <see cref="TolerancesEditorSubComponent"/> has some extra range checking code which,
+///   if changed here, must be changed there as well)
 /// </summary>
 public static class MicrobeEnvironmentalToleranceCalculations
 {
@@ -42,11 +42,17 @@ public static class MicrobeEnvironmentalToleranceCalculations
 
         // Always write the targets for becoming perfectly adapted
         result.PerfectTemperatureAdjustment = patchTemperature - speciesTolerances.PreferredTemperature;
-        result.PerfectPressureAdjustment = patchPressure - speciesTolerances.PreferredPressure;
         result.PerfectOxygenAdjustment = requiredOxygenResistance - speciesTolerances.OxygenResistance;
         result.PerfectUVAdjustment = requiredUVResistance - speciesTolerances.UVResistance;
 
+        // Need to get the average pressure value from the max and min to know how much to adjust
+        result.PerfectPressureAdjustment =
+            patchPressure - (speciesTolerances.PressureMaximum + speciesTolerances.PressureMinimum) * 0.5f;
+
         // TODO: make organelles affect the tolerances
+
+        // TODO: the root cause of https://github.com/Revolutionary-Games/Thrive/issues/5928 is probably somewhere in
+        // the following lines of code
 
         // Temperature
         if (patchTemperature > speciesTolerances.PreferredTemperature + speciesTolerances.TemperatureTolerance ||

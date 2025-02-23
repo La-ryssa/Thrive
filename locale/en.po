@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
-"PO-Revision-Date: 2025-02-19 15:15+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
+"PO-Revision-Date: 2025-02-21 11:54+0200\n"
 "Last-Translator: Henri Hyyryläinen <hhyyrylainen@revolutionarygamesstudio.com>\n"
 "Language-Team: English <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/en/>\n"
 "Language: en\n"
@@ -1750,6 +1750,16 @@ msgstr "Editors And Mutations"
 msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr "Enter the editor and modify your species"
 
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+"Welcome back to the editor. You will return here each time you successfully reproduce.\n"
+"\n"
+"The [b]goal of the early game[/b] is to find a good patch to live in and a reliable food source there.\n"
+"\n"
+"Later on you can start thinking about adding the [b]nucleus[/b] which is the way to advance in the game, but don't add it too early as it is a very expensive organelle.\n"
+"\n"
+"Press the \"next\" button to continue."
+
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 "This early in the history of life, the biosphere is pretty simple. Later, the menus you see here will be essential to understanding the interconnected story unfolding on your alien world.\n"
@@ -2654,6 +2664,12 @@ msgstr "July"
 msgid "JUNE"
 msgstr "June"
 
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr "Keep current flexibility"
+
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "Keep the current pressure tolerance range while moving the min and max sliders"
+
 msgid "KEEP_MIGRATION"
 msgstr "Keep Migration"
 
@@ -3409,6 +3425,7 @@ msgstr ""
 "\n"
 "Follow the line from your cell to a nearby white cloud of [thrive:compound type=\"glucose\"][/thrive:compound]."
 
+
 msgid "MICROBE_STAGE_CONTROL_TEXT"
 msgstr ""
 "To control your cell, use the keys shown near the cell (center of screen) to move, and the mouse to control the cell orientation.\n"
@@ -3479,11 +3496,11 @@ msgstr ""
 msgid "MIDDLE_MOUSE"
 msgstr "Middle mouse"
 
-msgid "MIGRATE"
-msgstr "Migrate"
-
 msgid "MIGRATION_FAILED_TO_ADD"
 msgstr "Error: failed to add migration, please check migration parameters"
+
+msgid "MIGRATION_MANAGER"
+msgstr "Migration Manager"
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
 msgstr "Going to migrate population from {0} to ..."
@@ -4497,7 +4514,7 @@ msgid "PRESSURE_SHORT"
 msgstr "Press."
 
 msgid "PRESSURE_TOLERANCE_TOOLTIP"
-msgstr "The pressure preferred by your species as well as the flexibility range around it. When in conditions outside the range, there will be many negative effects on your species. Change the preferred pressure and flexibility with the sliders."
+msgstr "The pressure preferred by your species. Configured as a min and max values as separate sliders. When in conditions outside the range, there will be many negative effects on your species. Change the range size by unchecking the checkbox below the sliders."
 
 msgid "PRESS_KEY_DOT_DOT_DOT"
 msgstr "Press a key..."
@@ -5689,6 +5706,9 @@ msgstr "Tools"
 
 msgid "TOOL_HAND_AXE"
 msgstr "Hand Axe"
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
+msgstr "Pressure range too wide"
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"
 msgstr "Not showing all recent versions as there are too many"
@@ -8703,6 +8723,9 @@ msgstr "Zoom in"
 
 msgid "ZOOM_OUT"
 msgstr "Zoom out"
+
+#~ msgid "MIGRATE"
+#~ msgstr "Migrate"
 
 #~ msgid "THANKS_FOR_BUYING_THRIVE"
 #~ msgstr ""

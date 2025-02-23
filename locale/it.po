@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
 "PO-Revision-Date: 2025-02-06 13:29+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/it/>\n"
@@ -1780,6 +1780,15 @@ msgstr "ha subito una mutazione"
 msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr "Apri l'editor e modifica la tua specie"
 
+#, fuzzy
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+"Questo è l'editor delle cellule, dove puoi aggiungere o rimuovere organuli dalla tua specie spendendo punti mutazione (MP).\n"
+"\n"
+"Ci sono anche altre proprietà, che puoi cambiare negli appositi pannelli.\n"
+"\n"
+"Per continuare, scegli un organulo dal pannello a sinistra (il citoplasma è una buona scelta). Poi, fai clic sinistro vicino all'esagono al centro dello schermo per aggiungere quell'organulo alla tua specie."
+
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 "Benvenuti nel [b]Editor dei microbi[/b].\n"
@@ -2819,6 +2828,13 @@ msgstr "Luglio"
 msgid "JUNE"
 msgstr "Giugno"
 
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr ""
+
+#, fuzzy
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "Metti in pausa il gioco"
+
 #, fuzzy
 msgid "KEEP_MIGRATION"
 msgstr "Respirazione aerobica"
@@ -3706,12 +3722,16 @@ msgid "MIDDLE_MOUSE"
 msgstr "Clic centrale"
 
 #, fuzzy
-msgid "MIGRATE"
-msgstr "Il tasso"
-
-#, fuzzy
 msgid "MIGRATION_FAILED_TO_ADD"
 msgstr "Creazione della mod fallita"
+
+#, fuzzy
+msgid "MIGRATION_MANAGER"
+msgstr ""
+"Tieni d'occhio la barra della tua salute vicino alla barra dell'ATP (in basso a destra).\n"
+"Se si svuota, la tua cellula muore.\n"
+"Recuperi salute se hai ATP disponibile.\n"
+"Assicurati di raccogliere abbastanza glucosio per produrre ATP."
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
 msgstr ""
@@ -6087,6 +6107,9 @@ msgid "TOOLS"
 msgstr "Strumenti"
 
 msgid "TOOL_HAND_AXE"
+msgstr ""
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
 msgstr ""
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"
@@ -8636,6 +8659,10 @@ msgid "ZOOM_OUT"
 msgstr "Zoom indietro"
 
 #, fuzzy
+#~ msgid "MIGRATE"
+#~ msgstr "Il tasso"
+
+#, fuzzy
 #~ msgid "THANKS_FOR_BUYING_THRIVE"
 #~ msgstr ""
 #~ "Grazie per aver giocato!\n"
@@ -9134,14 +9161,6 @@ msgstr "Zoom indietro"
 #~ "\n"
 #~ "Seleziona una zona per continuare."
 
-#~ msgid "EDITOR_TUTORIAL_CELL_TEXT"
-#~ msgstr ""
-#~ "Questo è l'editor delle cellule, dove puoi aggiungere o rimuovere organuli dalla tua specie spendendo punti mutazione (MP).\n"
-#~ "\n"
-#~ "Ci sono anche altre proprietà, che puoi cambiare negli appositi pannelli.\n"
-#~ "\n"
-#~ "Per continuare, scegli un organulo dal pannello a sinistra (il citoplasma è una buona scelta). Poi, fai clic sinistro vicino all'esagono al centro dello schermo per aggiungere quell'organulo alla tua specie."
-
 #~ msgid "VIEW_NOW"
 #~ msgstr "Vedi Ora"
 
@@ -9329,3 +9348,11 @@ msgstr "Zoom indietro"
 
 #~ msgid "WITH_CONCENTRATION_OF"
 #~ msgstr "con la concentrazione di"
+
+#~ msgid "EDITOR_TUTORIAL_CELL_TEXT"
+#~ msgstr ""
+#~ "Questo è l'editor delle cellule, dove puoi aggiungere o rimuovere organuli dalla tua specie spendendo punti mutazione (MP).\n"
+#~ "\n"
+#~ "Ci sono anche altre proprietà, che puoi cambiare negli appositi pannelli.\n"
+#~ "\n"
+#~ "Per continuare, scegli un organulo dal pannello a sinistra (il citoplasma è una buona scelta). Poi, fai clic sinistro vicino all'esagono al centro dello schermo per aggiungere quell'organulo alla tua specie."

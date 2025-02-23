@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
 "PO-Revision-Date: 2025-02-06 13:29+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/zh_Hans/>\n"
@@ -1767,6 +1767,15 @@ msgstr "编辑与突变"
 msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr "进入编辑器并修改你的物种"
 
+#, fuzzy
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+"这里是你的细胞编辑器，你可以在这通过花费变异点来添加或移除细胞器。\n"
+"\n"
+"你还可以在细胞编辑器里修改你的物种的其它属性。\n"
+"\n"
+"想要继续的话，从左侧面板选中一个细胞器（细胞质是个好选择）。然后再点击右侧面板中央附近的六角格以将此细胞器放入你的物种中。"
+
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 "欢迎来到[b]微生物编辑器[/b]。\n"
@@ -2694,6 +2703,13 @@ msgstr "七月"
 msgid "JUNE"
 msgstr "六月"
 
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr ""
+
+#, fuzzy
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "访问我们在Patreon上的页面"
+
 msgid "KEEP_MIGRATION"
 msgstr "保留更改并继续"
 
@@ -3564,11 +3580,12 @@ msgstr ""
 msgid "MIDDLE_MOUSE"
 msgstr "鼠标中键"
 
-msgid "MIGRATE"
-msgstr "迁移"
-
 msgid "MIGRATION_FAILED_TO_ADD"
 msgstr "错误：迁移失败，请检查迁移参数"
+
+#, fuzzy
+msgid "MIGRATION_MANAGER"
+msgstr "将{2}单位的种群从{0}迁移到{1}"
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
 msgstr "将种群从{0}迁移到..."
@@ -5812,6 +5829,9 @@ msgstr "工具"
 
 msgid "TOOL_HAND_AXE"
 msgstr "手斧"
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
+msgstr ""
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"
 msgstr "因为最近版本太多而没有全部显示"
@@ -8569,6 +8589,9 @@ msgstr "放大"
 msgid "ZOOM_OUT"
 msgstr "缩小"
 
+#~ msgid "MIGRATE"
+#~ msgstr "迁移"
+
 #~ msgid "THANKS_FOR_BUYING_THRIVE"
 #~ msgstr ""
 #~ "感谢你的游玩！如果你喜欢这款游戏，请记得也向你的朋友们推荐一下。\n"
@@ -9025,14 +9048,6 @@ msgstr "缩小"
 #~ "\n"
 #~ "选择一个地区以继续。"
 
-#~ msgid "EDITOR_TUTORIAL_CELL_TEXT"
-#~ msgstr ""
-#~ "这里是你的细胞编辑器，你可以在这通过花费变异点来添加或移除细胞器。\n"
-#~ "\n"
-#~ "你还可以在细胞编辑器里修改你的物种的其它属性。\n"
-#~ "\n"
-#~ "想要继续的话，从左侧面板选中一个细胞器（细胞质是个好选择）。然后再点击右侧面板中央附近的六角格以将此细胞器放入你的物种中。"
-
 #~ msgid "VIEW_NOW"
 #~ msgstr "现在就去看看"
 
@@ -9240,3 +9255,11 @@ msgstr "缩小"
 #~ msgstr ""
 #~ "化学合\n"
 #~ "成蛋白"
+
+#~ msgid "EDITOR_TUTORIAL_CELL_TEXT"
+#~ msgstr ""
+#~ "这里是你的细胞编辑器，你可以在这通过花费变异点来添加或移除细胞器。\n"
+#~ "\n"
+#~ "你还可以在细胞编辑器里修改你的物种的其它属性。\n"
+#~ "\n"
+#~ "想要继续的话，从左侧面板选中一个细胞器（细胞质是个好选择）。然后再点击右侧面板中央附近的六角格以将此细胞器放入你的物种中。"

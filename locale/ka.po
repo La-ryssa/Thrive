@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
 "PO-Revision-Date: 2025-02-19 08:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Georgian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ka/>\n"
@@ -1663,6 +1663,9 @@ msgstr "მუტაციები და რედაქტორები"
 msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr "შედით რედაქტორში და შეცვალეთ თქვენი სახეობები"
 
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 
@@ -2238,7 +2241,7 @@ msgid "HEALTH"
 msgstr "ჯანმრთელობა"
 
 msgid "HEALTH_MODIFIER"
-msgstr ""
+msgstr "ჯანმრთელობის მოდიფიკატორი"
 
 msgid "HEAT_ACCUMULATION_BAR_TOOLTIP"
 msgstr ""
@@ -2545,6 +2548,13 @@ msgstr "ივლისი"
 
 msgid "JUNE"
 msgstr "ივნისი"
+
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr ""
+
+#, fuzzy
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "ეწვიეთ ჩვენს Patreon-ის გვერდს"
 
 msgid "KEEP_MIGRATION"
 msgstr "მიგრაციის შენარჩუნება"
@@ -3305,11 +3315,12 @@ msgstr ""
 msgid "MIDDLE_MOUSE"
 msgstr "თაგუნას შუა ღილაკი"
 
-msgid "MIGRATE"
-msgstr "მიგრაცია"
-
 msgid "MIGRATION_FAILED_TO_ADD"
 msgstr "შეცდომა: მიგრაციის დამატება ჩავარდა. შეამოწმეთ მიგრაციის პარამეტრები"
+
+#, fuzzy
+msgid "MIGRATION_MANAGER"
+msgstr "მოხდება პოპულაციის {2} ერთეულის მიგრაცია {0}-დან {1}-მდე"
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
 msgstr "პოპულაციის მიგრაცია {0}-დან ..."
@@ -3773,9 +3784,8 @@ msgstr "დაზიანებულია მეტისმეტი რა�
 msgid "NOTICE_READY_TO_EDIT"
 msgstr "რედაქტორი ახლა ხელმისაწვდომია"
 
-#, fuzzy
 msgid "NOT_ADAPTED_TO_CURRENT_PATCH"
-msgstr "მიმდინარე ბიომის პოვნა"
+msgstr "მიმდინარე ბიომის პირობებთან შეგუებული არაა. შეცვალეთ სასურველი პირობები, ან გამძლეობის შუალედები, რომ მოაცილოთ უარყოფითი ეფექტები."
 
 msgid "NOT_STARTED_DOT"
 msgstr "არ დაწყებულა."
@@ -4044,9 +4054,8 @@ msgstr "ჟანგბადის ინჰიბიტორის სინ�
 msgid "OXYGEN_RESISTANCE"
 msgstr "ჟანგბადგამძლეობა"
 
-#, fuzzy
 msgid "OXYGEN_TOLERANCE_TOOLTIP"
-msgstr "გასვლა მთავარ მენიუში"
+msgstr "რამდენი ჟანგბადისგან მიღებული ზიანის ატანა შეუძლია თქვენს სახეობას დამაზიანებელი ეფექტების გამოჩნებამდე. თუ იმყოფებით ბიომში, რომელიც თქვენს გამძლეობასთან შედარებით მეტიმეტად ბევრ ჟანგბადს შეიცავს, თქვენ უარყოფით ეფექტებს მიიღებთ."
 
 msgid "OXYTOXISOME_PROCESSES_DESCRIPTION"
 msgstr ""
@@ -4170,9 +4179,8 @@ msgstr "ენდოსიმბიოზის პროცესის და�
 msgid "PERCENTAGE_VALUE"
 msgstr "{0}%"
 
-#, fuzzy
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
-msgstr "შენახვის ფაილის წაშლა შეუძლებელია."
+msgstr ""
 
 msgid "PERFORMANCE"
 msgstr "წარმადობა"
@@ -4295,9 +4303,8 @@ msgstr "წნევა"
 msgid "PRESSURE_SHORT"
 msgstr "წნევ."
 
-#, fuzzy
 msgid "PRESSURE_TOLERANCE_TOOLTIP"
-msgstr "გასვლა მთავარ მენიუში"
+msgstr ""
 
 msgid "PRESS_KEY_DOT_DOT_DOT"
 msgstr "დააჭირეთ ღილაკს..."
@@ -4320,9 +4327,8 @@ msgstr "@"
 msgid "PROCESS_PANEL_TITLE"
 msgstr "უჯრედის პროცესები"
 
-#, fuzzy
 msgid "PROCESS_SPEED_MODIFIER"
-msgstr "უჯრედის პროცესები"
+msgstr "ბიოპროცესის სიჩქარე"
 
 msgid "PROGRAMMING_TEAM"
 msgstr "პროგრამირების გუნდი"
@@ -5240,9 +5246,8 @@ msgstr "ტემპერატურა"
 msgid "TEMPERATURE_SHORT"
 msgstr "ტემპ."
 
-#, fuzzy
 msgid "TEMPERATURE_TOLERANCE_TOOLTIP"
-msgstr "ეწვიეთ ჩვენს Patreon-ის გვერდს"
+msgstr ""
 
 msgid "TESTING_TEAM"
 msgstr "ტესტირების გუნდი"
@@ -5447,9 +5452,8 @@ msgstr "რჩეული ტემპერატურა ძალიან 
 msgid "TOLERANCES_TOO_LOW_UV_PROTECTION"
 msgstr "უი დაცვა ძალიან დაბალია. საჭიროა, იყოს {0}% ან მეტი"
 
-#, fuzzy
 msgid "TOLERANCES_UNSUITABLE_DEBUFFS"
-msgstr "ამჟამინდელ გარემოსთან შეგუებული არაა. ცუდი ამბები: ოსმორეგულაცია: {0}%, დამუშავების სიჩქარე {1}%, ჯანმრთელობა {2}%"
+msgstr "ამჟამინდელ გარემოსთან შეგუებული არაა. ოსმორეგულაცია: {0}%, დამუშავების სიჩქარე {1}%, ჯანმრთელობა {2}%"
 
 msgid "TOLERANCE_RANGE_LABEL"
 msgstr "მოქნილობა:"
@@ -5459,6 +5463,9 @@ msgstr "ხელსაწყოები"
 
 msgid "TOOL_HAND_AXE"
 msgstr "ცული"
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
+msgstr ""
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"
 msgstr "არ ვაჩვენებ ყველა ბოლო ვერსიას, რადგან მათი რაოდენობა დიდია"
@@ -5608,14 +5615,8 @@ msgstr ""
 "\n"
 "იმისათვის, რომ თამაშში წინ წახვიდეთ, უნდა განვითარდეთ და შეეგუოთ, ასე რომ, რეკომენდებულია, თქვენი სახეობა ყოველ ჯერზე გააუმჯობესოთ."
 
-#, fuzzy
 msgid "TUTORIAL_MICROBE_EDITOR_OPEN_TOLERANCES"
 msgstr ""
-"თქვენს სახეობებში ცვლილებები არ შეგიტანიათ.\n"
-"\n"
-"როცა რედაქტორიდან გახვალთ, [u]თქვენს სახეობას ვერ ჩაასწორებთ, სანამ მორიგ ჯერზე არ გამრავლდებით.[/u].\n"
-"\n"
-"იმისათვის, რომ თამაშში წინ წახვიდეთ, უნდა განვითარდეთ და შეეგუოთ, ასე რომ, რეკომენდებულია, თქვენი სახეობა ყოველ ჯერზე გააუმჯობესოთ."
 
 msgid "TUTORIAL_MICROBE_EDITOR_PATCH_TEXT"
 msgstr ""
@@ -5629,14 +5630,8 @@ msgstr ""
 msgid "TUTORIAL_MICROBE_EDITOR_STAY_SMALL"
 msgstr ""
 
-#, fuzzy
 msgid "TUTORIAL_MICROBE_EDITOR_TOLERANCES_TAB"
 msgstr ""
-"თქვენს სახეობებში ცვლილებები არ შეგიტანიათ.\n"
-"\n"
-"როცა რედაქტორიდან გახვალთ, [u]თქვენს სახეობას ვერ ჩაასწორებთ, სანამ მორიგ ჯერზე არ გამრავლდებით.[/u].\n"
-"\n"
-"იმისათვის, რომ თამაშში წინ წახვიდეთ, უნდა განვითარდეთ და შეეგუოთ, ასე რომ, რეკომენდებულია, თქვენი სახეობა ყოველ ჯერზე გააუმჯობესოთ."
 
 msgid "TUTORIAL_MICROBE_STAGE_EDITOR_BUTTON_TUTORIAL"
 msgstr ""
@@ -5890,14 +5885,8 @@ msgstr "ვირტუალური ფანჯრის ზომის გ
 msgid "UV_PROTECTION"
 msgstr "უი გამძლეობა"
 
-#, fuzzy
 msgid "UV_TOLERANCE_TOOLTIP"
 msgstr ""
-"ეს სექცია ატფ-ის ბალანსს აჩვენებს მიმდინარე უჯრედისთვის.\n"
-"იმისათვის, რომ გადარჩეთ, ბალანსი დადებითი უნდა იყოს. უმოძრაო უჯრედებმა ეს მოძრაობის გარეშე უნდა მოახერხონ.\n"
-"ქვემოთ ჩამოსაშლელი სია შეგიძლიათ, გამოიყენოთ, რომ შეამოწმოთ, რა მოხდება, თუ უჯრედს არ ჰქონდა ზოგიერთი რესურსი, ატფ შეექმნა.\n"
-"მაგალითად, ზოგიერთ უჯრედს, მხოლოდ, მაშინ შეუძლიათ დადებითი ატფ-ის ბალანი ჰქონდეთ, როცა აქვთ ერთზე მეტი ნაერთი, რომ ატფ შექმნან.\n"
-"ამ ტიპის უჯრედებით თამაში უფრო ძნელია, რადგან მათ გადასარჩენად ერთზე მეტი ნაერთი სჭირდებათ."
 
 msgid "VACUOLE"
 msgstr "ვაკუოლა"
@@ -7492,6 +7481,9 @@ msgstr "გადიდება"
 
 msgid "ZOOM_OUT"
 msgstr "დაპატარავება"
+
+#~ msgid "MIGRATE"
+#~ msgstr "მიგრაცია"
 
 #~ msgid "EASTEREGG_MESSAGE_19"
 #~ msgstr "სასაცილოა: ინფუზორიები Didinium ნადირობს ქალამანაზე."

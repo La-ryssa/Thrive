@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
 "PO-Revision-Date: 2025-02-06 13:29+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/id/>\n"
@@ -1831,6 +1831,15 @@ msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr "Tambah keybind baru"
 
 #, fuzzy
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+"Ini editor sel dimana kamu bisa menambahkan atau menghapis organele dari spesiesmu dengan memakai poin mutasi (PM).\n"
+"\n"
+"Kamu juga bisa mengubah ciri lain dari spesiesmu di tab berbeda di editor sel.\n"
+"\n"
+"Untuk lanjut, pilih organel dari panel di sebelah kiri (sitoplasma adalah pilihan yang baik). Kemudian klik kiri disebelah hex yang ditampilkan di pertengahan layar untuk menambahkan organel pada spesiesmu."
+
+#, fuzzy
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 "Selamat Datang ke Editor Mikroba.\n"
@@ -2878,6 +2887,13 @@ msgstr ""
 msgid "JUNE"
 msgstr ""
 
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr ""
+
+#, fuzzy
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "Tambah keybind baru"
+
 #, fuzzy
 msgid "KEEP_MIGRATION"
 msgstr "Respirasi Aerob"
@@ -3784,12 +3800,17 @@ msgstr "Statistika Organisme"
 msgid "MIDDLE_MOUSE"
 msgstr ""
 
-msgid "MIGRATE"
-msgstr ""
-
 #, fuzzy
 msgid "MIGRATION_FAILED_TO_ADD"
 msgstr "Auto-evo gagal bekerja"
+
+#, fuzzy
+msgid "MIGRATION_MANAGER"
+msgstr ""
+"Perhatikan bilah health di sebelah bilah ATP (kanan bawah).\n"
+"Selmu mati jika kehabisan health.\n"
+"Kamu memperbarui health ketika memiliki ATP.\n"
+"Pastikan telah mengumpulkan glukosa yang cukup untuk memproduksi ATP."
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
 msgstr ""
@@ -6191,6 +6212,9 @@ msgid "TOOLS"
 msgstr "Alat"
 
 msgid "TOOL_HAND_AXE"
+msgstr ""
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
 msgstr ""
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"
@@ -9192,14 +9216,6 @@ msgstr "Perkecil"
 #~ "\n"
 #~ "Pilih daerah untuk lanjut."
 
-#~ msgid "EDITOR_TUTORIAL_CELL_TEXT"
-#~ msgstr ""
-#~ "Ini editor sel dimana kamu bisa menambahkan atau menghapis organele dari spesiesmu dengan memakai poin mutasi (PM).\n"
-#~ "\n"
-#~ "Kamu juga bisa mengubah ciri lain dari spesiesmu di tab berbeda di editor sel.\n"
-#~ "\n"
-#~ "Untuk lanjut, pilih organel dari panel di sebelah kiri (sitoplasma adalah pilihan yang baik). Kemudian klik kiri disebelah hex yang ditampilkan di pertengahan layar untuk menambahkan organel pada spesiesmu."
-
 #, fuzzy
 #~ msgid "TOTAL_EXTINCTION"
 #~ msgstr "telah punah di {0}"
@@ -9227,3 +9243,11 @@ msgstr "Perkecil"
 
 #~ msgid "MICROBE_PATCH_LABEL"
 #~ msgstr "Daerah: {0}"
+
+#~ msgid "EDITOR_TUTORIAL_CELL_TEXT"
+#~ msgstr ""
+#~ "Ini editor sel dimana kamu bisa menambahkan atau menghapis organele dari spesiesmu dengan memakai poin mutasi (PM).\n"
+#~ "\n"
+#~ "Kamu juga bisa mengubah ciri lain dari spesiesmu di tab berbeda di editor sel.\n"
+#~ "\n"
+#~ "Untuk lanjut, pilih organel dari panel di sebelah kiri (sitoplasma adalah pilihan yang baik). Kemudian klik kiri disebelah hex yang ditampilkan di pertengahan layar untuk menambahkan organel pada spesiesmu."

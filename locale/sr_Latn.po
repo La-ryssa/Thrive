@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-20 11:26+0200\n"
+"POT-Creation-Date: 2025-02-21 15:14+0200\n"
 "PO-Revision-Date: 2025-02-06 13:29+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sr_Latn/>\n"
@@ -1819,6 +1819,9 @@ msgstr "ima mutaciju"
 msgid "EDITOR_BUTTON_TOOLTIP"
 msgstr "Dodajte novo vezivanje tastera"
 
+msgid "EDITOR_TUTORIAL_EARLY_GOAL"
+msgstr ""
+
 msgid "EDITOR_TUTORIAL_EDITOR_TEXT"
 msgstr ""
 
@@ -2807,6 +2810,13 @@ msgstr ""
 msgid "JUNE"
 msgstr ""
 
+msgid "KEEP_CURRENT_FLEXIBILITY"
+msgstr ""
+
+#, fuzzy
+msgid "KEEP_CURRENT_TOLERANCE_FLEXIBILITY_TOOLTIP"
+msgstr "Dodajte novo vezivanje tastera"
+
 #, fuzzy
 msgid "KEEP_MIGRATION"
 msgstr "Disanje"
@@ -3631,11 +3641,11 @@ msgid "MIDDLE_MOUSE"
 msgstr "Srednji miš"
 
 #, fuzzy
-msgid "MIGRATE"
-msgstr "Stopa"
+msgid "MIGRATION_FAILED_TO_ADD"
+msgstr "Automatska-evolucija nije uspela"
 
 #, fuzzy
-msgid "MIGRATION_FAILED_TO_ADD"
+msgid "MIGRATION_MANAGER"
 msgstr "Automatska-evolucija nije uspela"
 
 msgid "MIGRATION_STATUS_DESTINATION_NOT_SELECTED"
@@ -6005,6 +6015,9 @@ msgid "TOOLS"
 msgstr "Alati"
 
 msgid "TOOL_HAND_AXE"
+msgstr ""
+
+msgid "TOO_LARGE_PRESSURE_RANGE"
 msgstr ""
 
 msgid "TOO_MANY_RECENT_VERSIONS_TO_SHOW"
@@ -8428,6 +8441,10 @@ msgstr "Zumirati"
 
 msgid "ZOOM_OUT"
 msgstr "Odzumirati"
+
+#, fuzzy
+#~ msgid "MIGRATE"
+#~ msgstr "Stopa"
 
 #, fuzzy
 #~ msgid "WIKI_RADIOSYNTHESIS"
